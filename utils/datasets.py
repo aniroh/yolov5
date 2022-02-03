@@ -732,7 +732,7 @@ def load_mosaic(self, index):
                                        scale=self.hyp['scale'],
                                        shear=self.hyp['shear'],
                                        perspective=self.hyp['perspective'],
-                                       border=self.mosaic_border, rotation90=hyp['rotation90'])  # border to remove
+                                       border=self.mosaic_border, rotation90=self.hyp['rotation90'])  # border to remove
 
     return img4, labels4
 
